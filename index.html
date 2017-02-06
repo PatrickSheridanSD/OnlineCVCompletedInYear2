@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Patrick Sheridans CV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/style/cvStyle.css">
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <h1>Patrick Sheridans CV</h1>
+            <img id="barPic" src="assets/pics/profiler.jpg" class="img-circle" alt="Facebook" style="width:75%;height:30%;" />
+            <ul class="sidebar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="work.html">Work Experience</a></li>
+                <li><a href="referees.html">References</a></li>
+            </ul>
+            <h3>Contact Me!</h3>
+            <form action="action_page.php">
+                Name:<br>
+                <input type="text" name="lastname" value="Name">
+                <br>
+                Email:<br>
+                <input type="text" name="lastname" value="Email">
+                <br><br>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+
+
+        </div>
+
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <button type="button" id="menu-toggle">
+                        <i class="navbar icon fa fa bars icon">//NAV//</i>
+                    </button>
+                    
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="jumbotron">
+                    <div class="container">
+                        <img id="jumPic" src="assets/pics/profile4.jpg" class="img-circle" alt="Facebook" style="width:200px;height:300px;" />
+                        <h1>Patrick Sheridans Resume.</h1>
+                        
+                        <p>
+                            I am a hard working person who will always strive to do my best whatever job i am in.
+                            I am a hard working person who will always strive to do my best whatever job i am in.
+                            I am a hard working person who will always strive to do my best whatever job i am in.
+                            I am a hard working person who will always strive to do my best whatever job i am in.
+                            I am a hard working person who will always strive to do my best whatever job i am in.
+                            I am a hard working person who will always strive to do my best whatever job i am in.
+                            I am a hard working person who will always strive to do my best whatever job i am in.
+                            
+                        </p>
+                        <p>
+                    </div>
+                </div>
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>Facebook Profile</h2>
+                            <a href="https://www.facebook.com/patrick.sheridan.127" target="_blank"><img id="facePic" src="assets/pics/facebook.jpg"  class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                            <p>Please feel free to visit my facebook profile to get a feel as to what type of person i am. </p>
+                            <p><a class="btn btn-primary" href="https://www.facebook.com/patrick.sheridan.127" target="_blank" role="button">Please Visit &raquo;</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Stack Overflow Profile</h2>
+                            <a href="http://stackoverflow.com/?newreg=15694c7dd8224f599821f493c382bb90" target="_blank"><img id="stackPic" src="assets/pics/stack.png" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                            <p>I like to stay active with fellow programmers. Please have a look at my profile.  </p>
+                            <p><a class="btn btn-primary" href="http://stackoverflow.com/?newreg=15694c7dd8224f599821f493c382bb90" role="button">Please Visit &raquo;</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>linkedin Profile</h2>
+                            <a href="https://www.linkedin.com/in/patrick-sheridan-0157b0a7?" target="_blank"><img id="linkedinPic" src="assets/pics/linkedin.png" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                            <p>My Linkedin Profile is free to view to see my work experience. Please have a look.</p>
+                            <p><a class="btn btn-primary" href="https://www.linkedin.com/in/patrick-sheridan-0157b0a7?" role="button">Please Visit &raquo;</a></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <footer id="footer">
+                        <p>&copy; 2016 Patrick Sheridans CV</p>
+                    </footer>
+                </div> 
+            </div>
+
+        </div>
+
+        <!-- Menu toggle script -->
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("menuDisplayed");
+            });
+        </script>
+
+</body>
+</html>

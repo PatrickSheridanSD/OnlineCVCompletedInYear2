@@ -1,0 +1,162 @@
+﻿#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: #222222 ;
+    
+    text-align:center;
+    color:white;
+}
+
+#head{
+    padding-left:10px;
+}
+
+#sidebarButton{
+    padding-top:8px;
+}
+
+#submit{
+    color:black;
+}
+
+.jumbotron{
+    background-color:#222222;
+    color:#ffffff;
+}
+
+#barPic{
+    
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#jumPic{
+    margin-left:20px;
+    float:right;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#facePic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#stackPic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#linkedinPic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#crestPic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#ittPic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#schoolPic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#mediPic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#tilingPic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+#tilePic{
+    margin-left:30px;
+    margin-bottom:20px;
+    border:solid;
+    border-color:Black;
+    border-width:thin;
+}
+
+
+
+
+/* Always take up entire screen */
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    
+}
+
+
+/* Change with of sidebar from 0 to 250px */
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
+}
+
+/* Since we added left padding, we need to shrink the width by 250px */
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+}
+
+
+/* Sidebar styling - the entire ul list */
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover {
+    background: silver;
+}
+

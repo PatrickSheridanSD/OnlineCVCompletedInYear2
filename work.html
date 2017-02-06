@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Patrick Sheridans CV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/style/cvStyle.css">
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <h1>Patrick Sheridans CV</h1>
+            <img id="barPic" src="assets/pics/profiler.jpg" class="img-circle" alt="Facebook" style="width:70%;height:25%;" />
+            <ul class="sidebar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="work.html">Work Experience</a></li>
+                <li><a href="referees.html">References</a></li>
+            </ul>
+            <h3>Contact Me!</h3>
+            <form action="action_page.php">
+                Name:<br>
+                <input type="text" name="lastname" value="Name">
+                <br>
+                Email:<br>
+                <input type="text" name="lastname" value="Email">
+                <br><br>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+
+
+        </div>
+
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <button type="button" id="menu-toggle">
+                        <i class="navbar icon fa fa bars icon">//NAV//</i>
+                    </button>
+                </div>
+            </nav>
+            <div class="container-fluid">
+
+                <div class="container">
+                    <div class="container">
+                        <h1>Work Experience</h1>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>Medicall Ambulance</h2>
+                                <a href="http://www.medicall.ie/" target="_blank"><img id="mediPic" src="assets/pics/medicall.jpg" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                                <p>Caring for sick and injured people as an Emergency Medical Technician </p>
+                                <p><a class="btn btn-primary" href="http://www.medicall.ie/" target="_blank" role="button">Please Visit &raquo;</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2>Byrne Tiling</h2>
+                                <a href="https://www.facebook.com/byrnetiling.contractors?" target="_blank"><img id="tilingPic" src="assets/pics/tiling.jpg" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                                <p>Managed a team of marble and tile fitters in large residential and commercial works. </p>
+                                <p><a class="btn btn-primary" href="https://www.facebook.com/byrnetiling.contractors?" role="button">Please Visit &raquo;</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2>Rocca Tiles</h2>
+                                <a href="http://www.roccastone.com/" target="_blank"><img id="tilePic" src="assets/pics/tiles.png" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                                <p>Worked From a storeboy to the level of store manager</p>
+                                <p><a class="btn btn-primary" href="http://www.roccastone.com/" role="button">Please Visit &raquo;</a></p>
+                            </div>
+                        </div>
+                        
+                        <p>The following table lists previous and present work experience:</p>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Job</th>
+                                    <th>Position</th>
+                                    <th>Year Started</th>
+                                    <th>Year Finished</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Medicall Ambulance Service</td>
+                                    <td>Emergenct Medical Technician</td>
+                                    <td>2009</td>
+                                    <td>Present</td>
+                                </tr>
+                                <tr>
+                                    <td>Byrne Tiling</td>
+                                    <td>
+                                        Manager/Tile & Marble Fitter
+                                    </td>
+                                    <td>2004</td>
+                                    <td>2009</td>
+                                </tr>
+                                <tr>
+                                    <td>Rocca Tiles</td>
+                                    <td>Sales Manager</td>
+                                    <td>1999</td>
+                                    <td>2004</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <footer id="footer">
+                            <p>&copy; 2016 Patrick Sheridans CV</p>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Menu toggle script -->
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("menuDisplayed");
+            });
+        </script>
+
+</body>
+</html>

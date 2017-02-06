@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Patrick Sheridans CV</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/style/cvStyle.css">
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <h1>Patrick Sheridans CV</h1>
+            <img id="barPic" src="assets/pics/profiler.jpg" class="img-circle" alt="Facebook" style="width:70%;height:25%;" />
+            <ul class="sidebar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="work.html">Work Experience</a></li>
+                <li><a href="referees.html">References</a></li>
+            </ul>
+            <h3>Contact Me!</h3>
+            <form action="action_page.php">
+                Name:<br>
+                <input type="text" name="lastname" value="Name">
+                <br>
+                Email:<br>
+                <input type="text" name="lastname" value="Email">
+                <br><br>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+
+
+        </div>
+
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <button type="button" id="menu-toggle">
+                        <i class="navbar icon fa fa bars icon">//NAV//</i>
+                    </button>
+                </div>
+            </nav>
+            <div class="container-fluid">
+
+                <div class="container">
+                    <div class="container">
+                        <h2>Education</h2>
+                        <p>The following table lists academic achievments to date:</p>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Year Started</th>
+                                    <th>Year Finished</th>
+                                    <th>Institution</th>
+                                    <th>Level</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2014</td>
+                                    <td>Present</td>
+                                    <td>Institute Of Technology Tallaght</td>
+                                    <td>Bsc Information Technology Management</td>
+                                </tr>
+                                <tr>
+                                    <td>1995</td>
+                                    <td>1999</td>
+                                    <td>Tallaght Community School</td>
+                                    <td>Junior Cert</td>
+                                </tr>
+                                <tr>
+                                    <td>1986</td>
+                                    <td>1998</td>
+                                    <td>St CollinCilles Primary School</td>
+                                    <td>N/A</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>IT Tallaght</h2>
+                                <a href="http://www.it-tallaght.ie/" target="_blank"><img id="ittPic" src="assets/pics/itt.jpg" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                                <p>Please feel free to visit IT Tallaghts website! </p>
+                                <p><a class="btn btn-primary" href="http://www.it-tallaght.ie/" target="_blank" role="button">Please Visit &raquo;</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2>Tallaght Community School</h2>
+                                <a href="http://www.tallaghtcs.com/" target="_blank"><img id="crestPic" src="assets/pics/crest.jpg" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                                <p>My Secondary School </p>
+                                <p><a class="btn btn-primary" href="http://www.tallaghtcs.com/" role="button">Please Visit &raquo;</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <h2>St colmcilles N.S</h2>
+                                <a href="http://www.stcolmcilles.ie/" target="_blank"><img id="schoolPic" src="assets/pics/school.jpg" class="img-rounded" alt="Facebook" style="width:200px;height:200px;" /></a>
+                                <p>My Primary school.</p>
+                                <p><a class="btn btn-primary" href="http://www.stcolmcilles.ie/" role="button">Please Visit &raquo;</a></p>
+                            </div>
+                        </div>
+
+                        <footer id="footer">
+                            <p>&copy; 2016 Patrick Sheridans CV</p>
+                        </footer>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Menu toggle script -->
+    <script>
+        $("#menu-toggle").click( function (e){
+            e.preventDefault();
+            $("#wrapper").toggleClass("menuDisplayed");
+        });
+    </script>
+
+</body>
+</html>
